@@ -21,66 +21,28 @@
     
     <style>
 
-        a {
-            color: white;
-        }
 
-        ul {
-            list-style: none;
-        }
 
-        footer {
-            background-color: #131622;
-            color: white;
-            text-align: center;
-            background: linear-gradient(to bottom, #284e7a, #000 100%);
-            padding: 60px 0;
 
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        footer p {
-            text-transform: uppercase;
-            font-size: 14px;
-            color: rgba(255,255,255, 0.6);
-            margin-bottom: 10px;
-        }
-
-        footer ul {
-            margin-bottom: 25px;
-            display: flex;
-            flex-direction: row;
-        }
-
-        footer ul li {
-            margin: 0 8px;
-        }
-
-        footer ul li a {
-            font-size: 36px;
-            cursor: pointer;
-        }
-
-        @media(max-width: 800px) {
-            footer {
-                padding: 80px 15px;
-            }
-        }
 
     </style>    
 
     </head>
-    <body>
-        <footer>
+    <body id="top">
+        <div id="hero">
+            <div class="background-image"></div>
+            <h1>Beautiful Photo Portfolio</h1>
+            <h3>Breathtaking Landscapes</h3>
+            <a href="https://github.com/justagitcookie" class="btn" target="_blank">Back to Github</a>
+        </div>
+        <footer id="social-media">
             <ul>
                 <li><a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
                 <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
                 <li><a href="#" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
                 <li><a href="#" target="_blank"><i class="fab fa-pinterest-square"></i></a></li>
             </ul>
-            <p>&copy; <script>document.write(new Date().getFullYear());</script> responsive Design without frameworks.</p>
+            <!-- <p>&copy; <script>document.write(new Date().getFullYear());</script> responsive Design without frameworks.</p> -->
             <p>&ldquo;Why cant it align like the div over there!?&rdquo; &mdash;Webdesigner</p>
         </footer>
     </body>
